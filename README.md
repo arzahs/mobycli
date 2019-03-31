@@ -1,6 +1,14 @@
 # Simple Moby(docker) CLI
 
-## Install
+## Requirements
 
+ - Docker with DockerAPI > 1.12
+ - Go 1.10+
+ - Go dep
+
+## Install
+```sh
+
+```
 
 ## Usage
