@@ -2,23 +2,23 @@
 
 ## Requirements
 
- - DockerAPI > v1.12
+ - DockerAPI > v1.18
  - Go 1.10+
  - Make
  - Go dep
 
 ## Install
-```sh
-$ go get -u github.com/golang/dep/cmd/dep
-$ make dep
-$ make build
+```bash
+go get -u github.com/golang/dep/cmd/dep # installing dep
+make dep
+make build
 ```
 
 ## Usage example
 
 ```sh
-$ ./mobycli run postgres
-$ ./mobycli ps
-$ ./mobycli stop $CONTAINERID
+./mobycli run postgres
+./mobycli ps
+./mobycli stop $CONTAINERID
 
 ```
