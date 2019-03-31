@@ -8,7 +8,7 @@ import (
 	"io"
 )
 
-const minVersion = "1.12"
+const minVersion = "1.18"
 
 
 // MobyClient is wrapper of docker client
