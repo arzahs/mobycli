@@ -2,7 +2,7 @@
 
 ## Requirements
 
- - DockerAPI > v1.18
+ - Docker daemon with Docker API > v1.18
  - Go 1.10+
  - Make
  - Go dep
