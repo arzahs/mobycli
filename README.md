@@ -1,14 +1,23 @@
-# Simple Moby(docker) CLI
+# Simple Moby (docker) CLI
 
 ## Requirements
 
- - Docker with DockerAPI > 1.12
+ - DockerAPI > v1.12
  - Go 1.10+
  - Go dep
 
 ## Install
 ```sh
-
+$ go get -u github.com/golang/dep/...
+$ make dep
+$ make build
 ```
 
-## Usage
+## Usage example
+
+```sh
+$ ./mobycli run postgres
+$ ./mobycli ps
+$ ./mobycli stop $CONTAINERID
+
+```
